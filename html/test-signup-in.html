@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../main.css" rel="stylesheet">
+
+    <title>potato</title>
+
+</head>
+
+<body>
+
+    <div class="cont-center">
+
+        <fieldset>
+
+            <legend>Log-in</legend>
+
+            <form method="post" id="sign" action="">
+
+                <label for="username">username:</label>
+                <input type="text" name="username" id="username" minlength="5" maxlength="12" pattern="[^()/><\][\\\x22,;|]+[A-Z]|[a-z]+[A-Z, a-z, 0-9, _]{5-12}" placeholder="username" title="you can use 5-12 characters from A-Z and a-z and 0-9 and _ that starts with an alphabet.(no special character)" required>
+
+                <label for="userpass">password:</label>
+                <input type="password" name="userpass" id="userpass" minlength="4" maxlength="12" pattern="[^()/><\][\\\x22,;|]+[a-z]+[a-z, 0-9]{4-12}" placeholder="password" title="you can use 4-12 characters from a-z and 0-9 that starts with an alphabet.(no special character)" required>
+
+                <button type="reset">reset</button>
+                <button type="submit">Log-in</button>
+            
+            </form>
+
+        </fieldset>
+        
+    </div>
+
+
+    <br>
+
+</body>
+
+
+<footer>
+
+    <a href=mailto"erfan.mohamadi110@gmail.com">email me: erfan.mohamadi110@gmail.com</a>
+    <a href="../index.html"><button class="home-but">home</button></a>
+
+</footer>
+
+</html>
