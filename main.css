@@ -15,7 +15,7 @@ body {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-name: backdrop;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
     background-size: 100vw 300vh;
 
 }
@@ -25,8 +25,20 @@ body {
     from {
         background-position: 0vw 300vh;
     }
+    10% {
+        background-position: 0vw 290vh;
+    }
+    25% {
+        background-position: 0vw 225vh;
+    }
     50% {
         background-position: 0vw 150vh;
+    }
+    75% {
+        background-position: 0vw 75vh;
+    }
+    90% {
+        background-position: 0vw 10vh;
     }
     to {
         background-position: 0vw 0vh;

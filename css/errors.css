@@ -1,0 +1,9 @@
+h1 > span {
+
+    background-image: linear-gradient(0deg, rgb(114, 148, 150)30%, rgb(21, 231, 231));
+    background-clip: text;
+    background-color: aqua;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
