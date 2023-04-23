@@ -17,6 +17,7 @@ body {
     animation-name: backdrop;
     animation-timing-function: linear;
     background-size: 100vw 300vh;
+    margin: 0%;
 
 }
 
@@ -61,7 +62,7 @@ body {
 #pages {
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 0.2vw;
 
