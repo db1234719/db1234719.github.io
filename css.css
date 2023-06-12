@@ -18,9 +18,9 @@
             background-color: red;
             transform: rotate(45deg);
             position: fixed;
-	    	left: 25px;
+	    left: 25px;
             bottom: 25px;
-			z-index: 10;
+	    z-index: 10;
         }
         .heart::before, .heart::after {
             content: "";
