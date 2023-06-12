@@ -11,6 +11,31 @@
     font-family: "arch";
     src: url(ArchitectsDaughter-Regular.ttf);
 }
+/* a heart */
+        .heart {
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            margin: 50px;
+            transform: rotate(45deg);
+            position: relative;
+        }
+        .heart::before, .heart::after {
+            content: "";
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            transform: rotate(45deg);
+            position: absolute;
+            border-radius: 50px;
+        }
+        .heart::before {
+            top: -25px;
+        }
+        .heart::after {
+            left: -25px;
+        }
+/* end the heart */
 #changer {
     position: fixed;
     right: 2vw;
