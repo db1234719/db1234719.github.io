@@ -16,9 +16,10 @@
             height: 50px;
             width: 50px;
             background-color: red;
-            margin: 50px;
             transform: rotate(45deg);
-            position: relative;
+            position: fixed;
+	    	left: 25px;
+            bottom: 25px;
         }
         .heart::before, .heart::after {
             content: "";
