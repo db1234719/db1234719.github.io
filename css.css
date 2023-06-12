@@ -20,6 +20,7 @@
             position: fixed;
 	    	left: 25px;
             bottom: 25px;
+			z-index: 10;
         }
         .heart::before, .heart::after {
             content: "";
