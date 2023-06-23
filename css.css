@@ -18,9 +18,9 @@
             background-color: red;
             transform: rotate(45deg);
             position: fixed;
-	    left: 25px;
+			left: 25px;
             bottom: 25px;
-	    z-index: 10;
+			z-index: 1;
         }
         .heart::before, .heart::after {
             content: "";
@@ -50,6 +50,7 @@
     border-style: none;
     width: 10vw;
     height: 5vw;
+	z-index: 10;
 }
 #one {
     display:var(--display-1);
